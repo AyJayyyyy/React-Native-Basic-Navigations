@@ -1,7 +1,7 @@
-// src/components/About.js
+// src/components/Contact.js
 import React from 'react';
 
-const About = () => {
+const Contact = () => {
     const containerStyle = {
       textAlign: 'center',
       margin: '50px auto',
@@ -13,12 +13,13 @@ const About = () => {
       boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     };
 
+
   return (
     <div style={containerStyle}>
-      <h2>About</h2>
-      <p>This is the about page.</p>
+      <h2>Contact</h2>
+      <p>Contact us here.</p>
     </div>
   );
 };
 
-export default About;
+export default Contact;
